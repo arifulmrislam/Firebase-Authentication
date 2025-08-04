@@ -1,12 +1,17 @@
-# React + Vite
+🔐 Authentication Project – Daily Objectives
+This project focuses on implementing multi-provider user authentication using Firebase.
+Today's goals include:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Firebase Setup – Initialize Firebase and configure the project
 
-Currently, two official plugins are available:
+✅ Email & Password Authentication – Enable user registration and login using email credentials
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Google Authentication – Integrate Google Sign-In
 
-## Expanding the ESLint configuration
+✅ GitHub Authentication – Add OAuth-based login via GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Facebook Authentication – Set up login with Facebook credentials
+
+✅ Private Routes – Restrict access to certain routes for authenticated users only
+
+✅ Post-Login Navigation – Automatically redirect users after successful login
